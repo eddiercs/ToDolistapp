@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         binding.rvTasks.adapter = adapter
         updateList()
 
-        insertListeners()
+    insertListeners()
     }
 
     private fun insertListeners() {
